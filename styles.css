@@ -1,0 +1,72 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 25px;
+    padding: 30px;
+    background-color:#00abaed3;
+    background-image: url('abc.jpg');
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+
+header {
+    background-color: #000c3d;
+    color: rgb(99, 0, 99);
+    padding: 10px;
+}
+
+nav ul {
+    list-style: disc;
+    margin: 20px;
+    padding: 30px;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin:  15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(232, 102, 102);
+    font-weight: bold;
+}
+
+.container {
+    max-width: 800px;
+    margin:  auto;
+    padding: 20px;
+}
+
+img {
+    filter: drop-shadow();
+    box-shadow:10px 10px 20px
+    rgb(11, 11, 11);
+    max-width: 100%;
+    height:400px;
+    width:800px;
+}
+
+
+.social-links {
+    list-style: disc;
+    padding: 0;
+}
+
+.social-links li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.social-links a {
+    text-decoration: none;
+    color: #333;
+}
+
+#about, #portfolio, #socialmedia #Geolocation {
+    padding: 50px;
+    text-align: center;
+}
